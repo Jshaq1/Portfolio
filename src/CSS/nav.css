@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+.side-menu-content-3 {
+    width: 90%;
+    height: 100vh;
+    color: #fff;
+    background-color: #fff;
+    flex-direction: column;
+    flex: none;
+    order: 0;
+    justify-content: flex-start;
+    align-self: auto;
+    align-items: flex-start;
+    padding-top: 0;
+    padding-bottom: 2rem;
+    padding-left: 3em;
+    display: flex;
+}
+
+.side-menu-wraper.overflow-hiden {
+    width: 100%;
+}
