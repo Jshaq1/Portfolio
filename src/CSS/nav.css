@@ -1,24 +1,107 @@
+@font-face {
+    font-family: 'Clearface-Regular';
+    src: local('Clearface-Regular'),
+         url('../fonts/Clearface-Regular.woff') format('woff');
+  
+  }
+@font-face {
+    font-family: 'NeueMontreal-Medium';
+    src: local('NeueMontreal-Medium'),
+         url('../fonts/NeueMontreal-Medium.woff') format('woff');
+}
+
+
 * {
     box-sizing: border-box;
 }
 
 .side-menu-content-3 {
     width: 90%;
-    height: 100vh;
-    color: #fff;
-    background-color: #fff;
+    height: 100%;
     flex-direction: column;
     flex: none;
     order: 0;
+    background-color: #e1d5d0;
     justify-content: flex-start;
     align-self: auto;
     align-items: flex-start;
-    padding-top: 0;
+    padding-top: 50px;
     padding-bottom: 2rem;
     padding-left: 3em;
     display: flex;
+    --p: 100%;
+    color: #8888ff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    transition: 0.8s cubic-bezier(0.5,-.3,.265,1);
+    border-radius: 50px;
+}
+.side-menu-section-2 {
+    z-index: 999;
+    width: 50rem;
+    max-width: 800px;
+    height: 100vh;
+    background-color: #ffffff;
+    padding-top: 0;
+    display: flex;
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: auto;
+    padding: 30px;
+    transition:  0.8s cubic-bezier(0.5,-.3,.265,1);
+    border: 1px solid blue;
 }
 
-.side-menu-wraper.overflow-hiden {
+.nav-hidden{
+    transform: translate(-90%);
+}
+
+.side-menu{
+    z-index: 99999;
+    width: 5rem;
+    height: 100vh;
+    z-index: 800;
+    background-color: #e2e2e2;
+    border-right-style: none;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.5em;
+    padding-bottom: 2em;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    top: 0%;
+    bottom: 0%;
+    left: auto;
+    right: 0%;
+}
+
+.side-menu-wrapper{
     width: 100%;
+}
+
+
+.social-links{
+    display: flex;
+    flex-direction: column;
+}
+
+.social-links>a>img{
+    width: 40px;
+    height: 40px;
+}
+
+.logo{
+    font-family: 'NeueMontreal-Medium';
+    font-size: 80px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+p{
+    text-align: left;
+    font-family: 'Clearface-Regular';
+    font-size: large;
+    width: 90%;
 }
