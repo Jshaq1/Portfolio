@@ -1,23 +1,74 @@
+@font-face {
+    font-family: 'Sporting-Bold';
+    src: local('SportingGrotesque-Bold'),
+         url('../fonts/SportingGrotesque-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'NeueMontreal-Medium';
+    src: local('NeueMontreal-Medium'),
+         url('../fonts/NeueMontreal-Medium.woff') format('woff');
+}
 
 
 .item{
-    height: 30rem;
+    height: 25rem;
     min-width: 40rem;
     border-radius: 50px;
     overflow: hidden;
 }
 
-.item>img{
+.project-card>img{
     width: 100%;
     height: 100%;
     pointer-events: none;
 
 }
 
+.project-card{
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    position: relative;
+}
+
+.project-details{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(164, 164, 164, 0.209);
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: left;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    color: white;
+}
+
+.project-details h2{
+    margin: 0;
+}
+
+.project-details button{
+    width: fit-content;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: .6rem;
+    padding-bottom: .6rem;
+    background-color: orange;
+    color: white;
+    font-family: 'NeueMontreal-Medium';
+    font-size: 25px;
+    border: none;
+    border-radius: 25px;
+    margin: 0;
+}
 .inner-carousel{
     display: flex;
     gap: 40px;
-
 }
 
 .carousel{

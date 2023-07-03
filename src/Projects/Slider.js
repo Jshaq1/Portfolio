@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { useRef, useEffect, useState } from 'react';
-import images from './images'
+import webprojects from './images'
 import '../CSS/slider.css'
 
 
@@ -24,10 +24,18 @@ function Slider() {
                 dragConstraints={{ right: 0, left: -width }}
                 whileTap={{ cursor: 'grabbing' }}
                 className='inner-carousel'>
-                {images.map((image, idx) => {
+                {webprojects.map((project, idx) => {
                     return (
                         <motion.div key={idx} className='item'>
-                            <img src={image} ref={imageWidth} alt=''></img>
+                            <div className='project-card'>
+                                <div className='project-details'>
+                                    <h2>{project.title}</h2>
+                                    <button>{project.categories[0]}</button>
+                                    <p>{project.challenge}</p>
+                                </div>
+                                <img src={project.image} ref={imageWidth} alt=''></img>
+                            </div>
+
                         </motion.div>
                     )
                 })}
