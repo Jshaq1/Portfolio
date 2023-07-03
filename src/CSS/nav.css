@@ -37,7 +37,7 @@
 }
 .side-menu-section-2 {
     z-index: 999;
-    width: 50rem;
+    width: 800px;
     max-width: 800px;
     height: 100vh;
     background-color: #ffffff;
@@ -59,7 +59,7 @@
 
 .side-menu{
     z-index: 99999;
-    width: 5rem;
+    width: 10%;
     height: 100vh;
     z-index: 800;
     background-color: #e2e2e2;

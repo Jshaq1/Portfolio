@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Sporting-Bold';
+    src: local('SportingGrotesque-Bold'),
+         url('../fonts/SportingGrotesque-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Clearface-Regular';
+    src: local('Clearface-Regular'),
+         url('../fonts/Clearface-Regular.woff') format('woff');
+  
+  }
+
+  @font-face {
+    font-family: 'NeueMontreal-Medium';
+    src: local('NeueMontreal-Medium'),
+         url('../fonts/NeueMontreal-Medium.woff') format('woff');
+}
+
+.projects-section{
+    height: 100vh;
+}
+
+
+.projects-header{
+    height: 15%;
+    color: #8888ff;
+    padding-left: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+h2{
+    font-size: 50px;
+    font-family: 'Sporting-Bold';
+}
+
+p{
+    font-size: 25px;
+    font-family: 'NeueMontreal-Medium';
+}
+
+.carousel-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 85%;
+    overflow: hidden;
+
+}
+
+.carousel-inner{
+    background: white;
+    width: 97%;
+    height: 45rem;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+    display: flex;
+    align-items: center;
+
+}
+
+

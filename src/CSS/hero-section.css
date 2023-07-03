@@ -1,34 +1,127 @@
+@font-face {
+    font-family: 'Clearface-Regular';
+    src: local('Clearface-Regular'),
+         url('../fonts/Clearface-Regular.woff') format('woff');
+  
+  }
+@font-face {
+    font-family: 'NeueMontreal-Medium';
+    src: local('NeueMontreal-Medium'),
+         url('../fonts/NeueMontreal-Medium.woff') format('woff');
+}
 
+@font-face {
+    font-family: 'Sporting-Bold';
+    src: local('SportingGrotesque-Bold'),
+         url('../fonts/SportingGrotesque-Bold.woff') format('woff');
+}
+
+*{
+    /* border: 1px solid red; */
+}
 
 .hero-container{
     display: grid;
     grid-template-columns: 1fr 1.2fr;
     height: 100vh;
-    width: 100vw;
-    border: 1px solid red;
 }
 
 
 .left-column{
     display: flex;
     flex-direction: column;
-    padding-left: 10%;
+
     /* border: 1px solid red; */
 }
 
 .left-column>img{
+    min-width: 28rem;
     width: 90%;
-    height: 70%;
-    border-bottom-right-radius: 15%;
+    height: 75%;
+    border-bottom-right-radius: 50px;
     
 }
 
-.left-column>p{
-    color: white;
+.hero-left-text>p{
+    color: #8888ff;
+    padding-left: 3rem;
+    padding-top: 40px;
+    font-family: 'Sporting-Bold';
+    font-size: 20px;
+    line-height: 23px;
+
+}
+
+.hero-left-text>p>span{
+    color: #fc7a5b;
 }
 
 .right-column{
     display: flex;
     flex-direction: column;
-    /* border: 1px solid red; */
+    padding-top: 1rem;
+}
+
+.hero-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1px;
+    margin-top: 3.5rem;
+    margin-bottom: 2rem;
+
+}
+
+.hero-title>h1{
+    color: #8888ff;
+    font-size: 120px;
+    font-family: 'NeueMontreal-Medium';
+    padding-left: 5%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.hero-title>p{
+    color:#8888ff;
+    font-size: 25px;
+    font-family: 'NeueMontreal-Medium';
+    padding-left: 5%;
+    margin-top: -10px;
+    margin-bottom: 0;
+    z-index: 1;
+}
+
+.hero-title-images{
+    /* overflow: hidden; */
+    width: 80%;
+    height: 150px;
+    z-index: 2;
+}
+
+.hero-title-images>img{
+    height:180%;
+    margin-top: -90px;
+    margin-left: -40px;
+}
+
+.contact-button{
+    color: #8888ff;
+    text-align: right;
+    margin-right: 1rem;
+    text-align: center;
+    margin-left: 60%;
+    border-radius: 30px;
+    font-family: 'Sporting-Bold';
+    font-size: 20px;
+}
+
+.right-column>img{
+    margin-left: auto;
+    height: 18rem;
+    width: 95%;
+    margin-top: 8rem;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+
 }
