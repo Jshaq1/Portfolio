@@ -5,6 +5,18 @@
 }
 
 @font-face {
+    font-family: 'Sporting-Regular';
+    src: local('SportingGrotesque-Regular'),
+         url('../fonts/SportingGrotesque-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Voyage';
+    src: local('grandefoyage'),
+         url('../fonts/grandefoyage.woff') format('woff');
+}
+
+@font-face {
     font-family: 'Clearface-Regular';
     src: local('Clearface-Regular'),
          url('../fonts/Clearface-Regular.woff') format('woff');
@@ -18,9 +30,11 @@
 }
 
 .about-me-container{
-    height: 100vh;
-    /* padding-left: 3rem;
-    padding-right: 3rem; */
+    height: 100%;
+    padding-right: 3rem;
+
+   
+
 }
 
 .about-me-container h1{
@@ -41,16 +55,23 @@
 
 .about-inner-container{
     background-color: white;
-    height: 100%;
+    height: fit-content;
     /* border-radius: 60px; */
     display: grid;
     grid-template-columns: 1fr 1fr;
+    border-radius: 100px;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    transition: 0.8s cubic-bezier(0.5,-.3,.265,1);
 }
 
 .about-left-col{
-    background-color: orange;
+    position: sticky;
+    top: 0;
+    background-color: #fc7a5b;
     padding: 3rem;
     color: white;
+    height: 100vh;
 }
 
 .about-left-col h1{
@@ -60,6 +81,69 @@
 }
 .about-left-col h2{
     margin: 0;
-    font-family: 'Sporting-Bold';
+    font-family: 'Sporting-Regular';
     font-size: 30px;
+}
+
+.about-right-col{
+    padding: 3rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 3rem;
+    
+}
+
+.skills-card{
+    background-color: rgb(222, 222, 222);
+    height: fit-content;
+    min-height: 35rem;
+    border-radius: 60px;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+
+.skills-card h2 {
+    font-family: 'Sporting-Bold';
+    margin: 0;
+}
+
+.skills-card h4 {
+    font-family: 'Sporting-Regular';
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    width: 100%;
+    justify-content: left;
+    padding-left: 2rem;
+}
+
+.skill{
+    border: 2px solid black;
+    width: fit-content;
+    padding: .8rem;
+    border-radius: 30px;
+    font-family: 'Sporting-Regular';
+    color: black;
+    font-size: 11px;
+}
+
+.highlight{
+    background-color: #fc7a5b;
+    border: 2px solid #fc7a5b;
+    color: white;
+}
+
+.skills-card p{
+    font-family: 'Clearface-Regular';
 }

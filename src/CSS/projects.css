@@ -17,6 +17,12 @@
          url('../fonts/NeueMontreal-Medium.woff') format('woff');
 }
 
+@font-face {
+    font-family: 'Voyage';
+    src: local('grandefoyage'),
+         url('../fonts/grandefoyage.woff') format('woff');
+}
+
 .projects-section{
     height: 100vh;
     display: flex;
@@ -36,6 +42,7 @@
     align-items: center;
     gap: 20px;
 }
+
 
 h2{
     font-size: 50px;
