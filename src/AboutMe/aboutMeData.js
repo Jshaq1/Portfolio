@@ -1,9 +1,4 @@
-import BUNGLES from '../Images/courosel-images/BUNGLES.png'
-import HUE from '../Images/courosel-images/HUE.png'
-import JBHIFIDASH from '../Images/courosel-images/JBHIFI-DASH.png'
-import WORDLE from '../Images/courosel-images/WORDLE.png'
-
-const webprojects = [
+const aboutMeData = [
     {
         'title': 'JB DASH',
         'link': 'https://jshaq1.github.io/Project_4-ShiftPosting',
@@ -42,6 +37,4 @@ const webprojects = [
     }
 ]
 
-
-export default webprojects
-
+export default aboutMeData;

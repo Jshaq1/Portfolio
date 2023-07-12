@@ -31,7 +31,7 @@ function Slider() {
                                 <div className='project-details'>
                                     <h2>{project.title}</h2>
                                     <button>{project.categories[0]}</button>
-                                    <p>{project.challenge}</p>
+                                    <p>{project.solution}</p>
                                 </div>
                                 <img src={project.image} ref={imageWidth} alt=''></img>
                             </div>

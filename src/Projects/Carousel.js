@@ -8,7 +8,9 @@ function Carousel() {
 
             <section className='carousel-inner'>
                 <Slider></Slider>
+                <a href='#'>VIEW ALL</a>
             </section>
+
 
         </section>
 

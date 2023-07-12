@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Sporting-Bold';
+    src: local('SportingGrotesque-Bold'),
+         url('../fonts/SportingGrotesque-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Clearface-Regular';
+    src: local('Clearface-Regular'),
+         url('../fonts/Clearface-Regular.woff') format('woff');
+  
+  }
+
+  @font-face {
+    font-family: 'NeueMontreal-Medium';
+    src: local('NeueMontreal-Medium'),
+         url('../fonts/NeueMontreal-Medium.woff') format('woff');
+}
+
+.about-me-container{
+    height: 100vh;
+    /* padding-left: 3rem;
+    padding-right: 3rem; */
+}
+
+.about-me-container h1{
+    color: white;
+    font-size: 50px;
+    font-family: 'Sporting-Bold';
+}
+
+.about-me-header{
+    height: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.about-me-header h1{
+    margin: 0;
+}
+
+.about-inner-container{
+    background-color: white;
+    height: 100%;
+    /* border-radius: 60px; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.about-left-col{
+    background-color: orange;
+    padding: 3rem;
+    color: white;
+}
+
+.about-left-col h1{
+    margin: 0;
+    font-family: 'Sporting-Bold';
+    font-size: 70px;
+}
+.about-left-col h2{
+    margin: 0;
+    font-family: 'Sporting-Bold';
+    font-size: 30px;
+}
