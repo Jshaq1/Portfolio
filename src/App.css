@@ -16,3 +16,7 @@ html {
 *{
   cursor: url('./Images/cursor.png'), auto;
 }
+
+a:visited {
+  text-decoration: none;
+}

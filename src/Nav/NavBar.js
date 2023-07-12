@@ -5,9 +5,11 @@ import React, { useState, useEffect } from 'react';
 
 function NavBar() {
     const [hideNavState, setHideNavState] = useState(false)
+    const [isOpen, setOpen] = useState(false)
 
     const handleHeaderClick = () => {
         setHideNavState(!hideNavState)
+        setOpen(!isOpen)
     }
 
     return (
@@ -26,6 +28,7 @@ function NavBar() {
             </section>
             <Header
                 onClick={handleHeaderClick}
+                hamBurgerStatus={isOpen}
             ></Header>
         </nav>
     )

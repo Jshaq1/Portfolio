@@ -8,7 +8,7 @@ function Carousel() {
 
             <section className='carousel-inner'>
                 <Slider></Slider>
-                <a href='#'>VIEW ALL</a>
+                <a href='https://github.com/Jshaq1'>VIEW ALL</a>
             </section>
 
 

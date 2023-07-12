@@ -21,7 +21,7 @@
     flex-direction: column;
     flex: none;
     order: 0;
-    background-color: #e1d5d0;
+    background-color: #fc7a5b;
     justify-content: flex-start;
     align-self: auto;
     align-items: flex-start;
@@ -30,10 +30,10 @@
     padding-left: 3em;
     display: flex;
     --p: 100%;
-    color: #8888ff;
+    color: white;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
     transition: 0.8s cubic-bezier(0.5,-.3,.265,1);
-    border-radius: 50px;
+    border-radius: 60px;
 }
 .side-menu-section-2 {
     z-index: 999;
@@ -49,8 +49,9 @@
     left: 0%;
     right: auto;
     padding: 30px;
-    transition:  0.8s cubic-bezier(0.5,-.3,.265,1);
-    border: 1px solid blue;
+    transition:  0.8s cubic-bezier(0.5,0.3,.265,1);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .nav-hidden{
@@ -62,7 +63,7 @@
     width: 10%;
     height: 100vh;
     z-index: 800;
-    background-color: #e2e2e2;
+    background-color: white;
     border-right-style: none;
     justify-content: space-between;
     align-items: center;
@@ -77,6 +78,13 @@
     right: 0%;
 }
 
+.active{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transition:  0.5s 
+}
+
+
 .side-menu-wrapper{
     width: 100%;
 }
@@ -90,6 +98,9 @@
 .social-links>a>img{
     width: 40px;
     height: 40px;
+    filter: invert(57%) sepia(94%) saturate(1014%) hue-rotate(322deg) brightness(100%) contrast(99%);
+
+
 }
 
 .logo{

@@ -121,12 +121,23 @@
     color: #fc7a5b;
     text-align: right;
     margin-right: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
     text-align: center;
     margin-left: 60%;
     border-radius: 30px;
     font-family: 'Sporting-Bold';
     font-size: 20px;
 }
+
+.contact-button a{
+    text-decoration: none;
+    font-size: 30px;
+}
+a:visited {
+    color: #fc7a5b;
+  }
+
 
 .right-column>img{
     margin-left: auto;

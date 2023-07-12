@@ -9,13 +9,13 @@ const RightColumn = () => {
     return (
         <section className='right-column' >
             <div className='contact-button'>
-                <h1>CONTACT</h1>
+                <a href='#'>CONTACT</a>
             </div>
             <div className='hero-title'>
                 <h1>Hello I'm</h1>
                 <div className='hero-title-images'><img src={Designer}></img></div>
 
-                <p>Developer // Graphic Designer // Dog Enthusiast</p>
+                <p>Developer // Designer // Dog Enthusiast</p>
             </div>
 
             <img src={HeroImageLeft}></img>

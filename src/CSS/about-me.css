@@ -61,8 +61,6 @@
     grid-template-columns: 1fr 1fr;
     border-radius: 100px;
     background-color: white;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-    transition: 0.8s cubic-bezier(0.5,-.3,.265,1);
 }
 
 .about-left-col{
@@ -104,6 +102,9 @@
     flex-direction: column;
     justify-content: flex-start;
     gap: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    transition: 0.8s cubic-bezier(0.5,-.3,.265,1);
+
 }
 
 
@@ -145,5 +146,5 @@
 }
 
 .skills-card p{
-    font-family: 'Clearface-Regular';
+    font-family: 'NeueMontreal-Medium';
 }
