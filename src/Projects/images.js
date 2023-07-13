@@ -28,7 +28,7 @@ const webprojects = [
         'categories': ['Web Design'],
         'tech-stack': ['Python', 'Flask', 'API', 'MYSQL', 'bcrypt', 'Heroku', 'CSS3', 'JINJA', 'Gunicorn', 'psycopg2'],
         'challenge': 'Create a design helper that meaningfully impacts the way I generate web designs. Using a Flask SPA to generate and display API requests to store user created information in a database',
-        'solution': 'A single page application that makes use of a color pallet API to generate thoutfully crafted color pallets, allowing users to save pallets for later use.',
+        'solution': 'A single page application that makes use of a color pallet API to generate thoughtfully crafted color pallets, allowing users to save pallets for later use.',
         'image': HUE
     },
     {

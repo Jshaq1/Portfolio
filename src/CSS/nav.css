@@ -13,6 +13,7 @@
 
 * {
     box-sizing: border-box;
+    
 }
 
 .side-menu-content-3 {
@@ -76,6 +77,13 @@
     bottom: 0%;
     left: auto;
     right: 0%;
+
+}
+
+.side-menu-click{
+    display: flex;
+    align-items: center;
+    height: 70vh;
 }
 
 .active{
@@ -93,14 +101,19 @@
 .social-links{
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 
 .social-links>a>img{
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     filter: invert(57%) sepia(94%) saturate(1014%) hue-rotate(322deg) brightness(100%) contrast(99%);
-
-
+    transition:  0.2s cubic-bezier(0.5,0.3,.265,1);
+}
+.social-links>a>img:hover{
+    scale: 120%;
+    transition:  0.2s cubic-bezier(0.5,0.3,.265,1);
+    filter: invert(57%) sepia(94%) saturate(150%) hue-rotate(322deg) brightness(100%) contrast(99%);
 }
 
 .logo{

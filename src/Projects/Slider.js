@@ -30,7 +30,7 @@ function Slider() {
                             <div className='project-card'>
                                 <div className='project-details'>
                                     <h2>{project.title}</h2>
-                                    <button>Let's Go</button>
+                                    <button><a href={project.link}>TAKE A LOOK</a></button>
                                     <p>{project.solution}</p>
                                 </div>
                                 <img src={project.image} ref={imageWidth} alt=''></img>

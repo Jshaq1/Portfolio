@@ -29,7 +29,7 @@
 .project-card{
     width: 100%;
     height: 100%;
-    pointer-events: none;
+    cursor: grab;
     position: relative;
 }
 
@@ -49,6 +49,7 @@
     padding-bottom: 2rem;
     padding-top: 25%;
     color: white;
+    cursor: grab;
 }
 
 .project-details h2{
@@ -64,11 +65,21 @@
     background-color: orange;
     color: white;
     font-family: 'NeueMontreal-Medium';
-    font-size: 25px;
     border: none;
     border-radius: 25px;
     margin: 0;
-    cursor: url('../Images/cursor.png'), auto;
+    box-sizing: border-box;
+    cursor: pointer;
+
+}
+.project-details a{
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.project-details a:visited{
+    color: white;
+
 }
 .inner-carousel{
     display: flex;

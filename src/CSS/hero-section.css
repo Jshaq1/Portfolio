@@ -30,12 +30,12 @@
 .left-column{
     display: flex;
     flex-direction: column;
-    max-width: 45rem;
-    /* border: 1px solid red; */
+
 }
 
 .image-container{
-    min-width: 28rem;
+    /* min-width: 20rem; */
+    max-height: 50rem;
     width: 90%;
     height: 75%;
     border-bottom-right-radius: 50px;
@@ -48,6 +48,7 @@
     width: 100%;
     height: 100%;
     aspect-ratio: 4 / 5;
+    object-fit: cover;
 }
 
 .hero-left-text>p{
@@ -63,14 +64,14 @@
 .hero-left-text>p>span{
     color: #fc7a5b;
     font-family: 'Sporting-Regular';
+    font-size: 23px;
 }
 
 .right-column{
     display: flex;
     flex-direction: column;
-    padding-top: 1rem;
+    justify-content: space-evenly;
     gap: 0;
-    /* border: 1px solid red; */
 }
 
 .hero-title{
@@ -79,7 +80,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     gap: 1px;
-    margin-bottom: 2rem;
+
 
 }
 
@@ -121,7 +122,6 @@
     color: #fc7a5b;
     text-align: right;
     margin-right: 1rem;
-    margin-top: 2rem;
     margin-bottom: 1rem;
     text-align: center;
     margin-left: 60%;
