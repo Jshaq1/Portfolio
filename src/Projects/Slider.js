@@ -11,7 +11,6 @@ function Slider() {
 
     useEffect(() => {
         setWidth((carousel.current.scrollWidth - carousel.current.offsetWidth))
-        console.log(imageWidth.current.width)
     }, [])
 
     return (
