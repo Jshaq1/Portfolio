@@ -2,6 +2,7 @@ import GITHUB from '../Images/github-sign (1).png'
 import LINKEDIN from '../Images/linkedin.png'
 import INSTAGRAM from '../Images/instagram.png'
 import { Squash as Hamburger } from 'hamburger-react'
+import LOGO from '../Images/logowordmark.png'
 
 
 
@@ -10,7 +11,7 @@ function Header({ onClick, hamBurgerStatus }) {
 
     return (
         <header className={hamBurgerStatus ? 'side-menu active' : 'side-menu'}>
-            <a href='/#'>LOGO</a>
+            <a className='logo' href='/'><img alt='logo' src={LOGO} /></a>
             <div className='side-menu-click' onClick={onClick} >
                 <Hamburger
                     toggled={hamBurgerStatus}
@@ -23,9 +24,9 @@ function Header({ onClick, hamBurgerStatus }) {
                     rounded />
             </div>
             <div className='social-links'>
-                <a href='https://github.com/Jshaq1'><img alt='Github Logo' src={GITHUB} /></a>
-                <a href='https://www.linkedin.com/in/jordan-allen-36ab53149/'><img alt='Linkedin Logo' src={LINKEDIN} /></a>
-                <a href='https://www.instagram.com/_jrdn.a/?hl=en'><img alt='Instagram Logo' src={INSTAGRAM} /></a>
+                <a href='https://github.com/Jshaq1' target="_blank"><img alt='Github Logo' src={GITHUB} /></a>
+                <a href='https://www.linkedin.com/in/jordan-allen-36ab53149/' target="_blank"><img alt='Linkedin Logo' src={LINKEDIN} /></a>
+                <a href='https://www.instagram.com/_jrdn.a/?hl=en' target="_blank"><img alt='Instagram Logo' src={INSTAGRAM} /></a>
             </div>
         </header>
     )

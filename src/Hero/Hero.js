@@ -6,7 +6,7 @@ function Hero() {
 
 
     return (
-        <section className='hero-container'>
+        <section id='hero' className='hero-container'>
             <LeftColumn />
             <RightColumn />
         </section>

@@ -6,7 +6,7 @@ import RightCol from './RightCol';
 function AboutMe() {
 
     return (
-        <section className='about-me-container'>
+        <section id='about' className='about-me-container'>
             {/* <section className='about-me-header'>
                 <h1>About me</h1>
             </section> */}

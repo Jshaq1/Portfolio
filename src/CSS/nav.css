@@ -10,6 +10,11 @@
          url('../fonts/NeueMontreal-Medium.woff') format('woff');
 }
 
+@font-face {
+    font-family: 'Sporting-Bold';
+    src: local('SportingGrotesque-Bold'),
+         url('../fonts/SportingGrotesque-Bold.woff') format('woff');
+}
 
 * {
     box-sizing: border-box;
@@ -22,19 +27,35 @@
     flex-direction: column;
     flex: none;
     order: 0;
-    background-color: #fc7a5b;
-    justify-content: flex-start;
+    gap: 0;
+    background-color: rgb(222, 222, 222);
+    justify-content: space-between;
     align-self: auto;
     align-items: flex-start;
-    padding-top: 50px;
+    padding-top: 4rem;
     padding-bottom: 2rem;
     padding-left: 3em;
     display: flex;
     --p: 100%;
     color: white;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-    transition: 0.8s cubic-bezier(0.5,-.3,.265,1);
     border-radius: 60px;
+    transition: 1s cubic-bezier(0.5,-.3,.265,1);  
+    overflow: hidden;
+    padding-bottom: 0;
+}
+
+.side-menu-content-3-active{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    transition: 1s cubic-bezier(0.5,-.3,.265,1);  
+
+}
+
+.side-menu-content-3 h1{
+    font-family: 'Sporting-Bold';
+    font-size: 60px;
+    line-height: 58px;
+    margin: 0;
+    margin-bottom: 3rem;
 }
 .side-menu-section-2 {
     z-index: 999;
@@ -68,8 +89,8 @@
     border-right-style: none;
     justify-content: space-between;
     align-items: center;
-    padding-top: 1.5em;
-    padding-bottom: 2em;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     display: flex;
     position: absolute;
     flex-direction: column;
@@ -116,16 +137,51 @@
     filter: invert(57%) sepia(94%) saturate(150%) hue-rotate(322deg) brightness(100%) contrast(99%);
 }
 
-.logo{
-    font-family: 'NeueMontreal-Medium';
-    font-size: 80px;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
 p{
     text-align: left;
     font-family: 'Clearface-Regular';
     font-size: large;
     width: 90%;
+}
+
+
+.logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo img{
+    width: 80%;
+}
+
+.nav-links{
+    width: fit-content;
+    border-radius: 60px;
+    font-family: 'Sporting-Bold';
+    color: #2b2b2b;
+    font-size: 65px;
+    text-decoration: none;
+    line-height: 60px;
+}
+
+.nav-links:hover{
+    scale: 105%;
+    transition:  0.2s cubic-bezier(0.5,0.3,.265,1);
+    filter: invert(57%) sepia(94%) saturate(150%) hue-rotate(322deg) brightness(100%) contrast(99%);
+}
+
+.side-menu-content-3 img {
+    width: 100%;
+
+}
+
+.nav-link-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    width: 100%;
+    justify-content: left;
+    color: #2b2b2b;
+    margin-bottom: 5rem;
 }
