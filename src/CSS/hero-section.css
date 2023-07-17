@@ -181,10 +181,10 @@ a:visited {
     } 
 
     .hero-title>h1{
-        font-size: 110px;   
+        font-size: 120px;   
     }
     .hero-title-images>img{
-        height:120%;
+        height:130%;
         margin-top: -50px;
         margin-left: -20px;
     }
