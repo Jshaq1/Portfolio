@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'Sporting-Bold';
+    src: local('SportingGrotesque-Bold'),
+         url('../fonts/SportingGrotesque-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Sporting-Regular';
+    src: local('SportingGrotesque-Regular'),
+         url('../fonts/SportingGrotesque-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Voyage';
+    src: local('grandefoyage'),
+         url('../fonts/grandefoyage.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Clearface-Regular';
+    src: local('Clearface-Regular'),
+         url('../fonts/Clearface-Regular.woff') format('woff');
+  
+  }
+
+@font-face {
+    font-family: 'NeueMontreal-Medium';
+    src: local('NeueMontreal-Medium'),
+         url('../fonts/NeueMontreal-Medium.woff') format('woff');
+  }
+
+
+
+.contact-section{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-bottom: 3rem;
+}
+
+.form-header{   
+    display: grid;
+    grid-template-columns: .75fr 1fr;
+    width: 100%;
+    height: 40vh;
+    border-top: solid 5px white;
+    border-bottom: solid 5px white;
+    color: white;
+    font-family: 'Sporting-Bold';
+    padding-top: 1rem;
+    align-items: center;
+}
+
+.header-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.contact-details{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.social-links.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.form-header h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 0;
+}
+
+.form-header h2{
+    font-size: 30px;
+    line-height: 40px;
+    margin: 0;
+    text-align: right;
+    font-family: 'Sporting-Regular';
+}
+
+
+.form-header h4{
+    font-size: 15px;
+    margin: 0;
+    color: #fc7a5b;
+}
+
+
+
+
+

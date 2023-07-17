@@ -126,19 +126,20 @@
     font-size: 20px;
     width: fit-content;
     margin-left: 70%;
-    
-}
-
-.contact-button a{
     text-decoration: none;
     font-size: 30px;
     transition: .3s;
+    
 }
 
-.contact-button a:hover{
-   color: white;
-   
+
+.contact-button-main{
+    text-decoration: none;
 }
+.contact-button:hover{
+   color: white;
+}
+
 .contact-underline{
     height: 4px;
     margin-top: -.7rem;
