@@ -19,9 +19,6 @@ function NavBar() {
     }
 
 
-
-
-
     return (
         <BrowserRouter>
             <nav className={hideNavState === false ? 'side-menu-section-2 nav-hidden' : 'side-menu-section-2'} >

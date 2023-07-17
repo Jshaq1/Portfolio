@@ -1,14 +1,14 @@
 
 
 function SkillsCard({ index, details }) {
-    const { title, techStack, about, experience } = details
+    const { title, techStack, about, expect } = details
     console.log(techStack)
 
     return (
         <article className='skills-card'>
             {/* <h3>0{index + 1}</h3> */}
             <h2>{title}</h2>
-            <h4>skills:</h4>
+            <h4>Skills:</h4>
             <div className='skills'>
                 {techStack.map((skill, idx) => {
                     return (
@@ -21,7 +21,15 @@ function SkillsCard({ index, details }) {
                     )
                 })}
             </div>
-            <p>{about}</p>
+            <h4>What to expect:</h4>
+            <ul>
+                {expect.map((item, idx) => {
+                    return <li>{item}</li>
+                })}
+            </ul>
+            {/* <p>{about}</p> */}
+
+
         </article>
 
     )

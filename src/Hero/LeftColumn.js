@@ -14,7 +14,7 @@ const LeftColumn = () => {
                 <img src={LOGO} alt='Illustrated man with box on head, Jordan Logo'></img>
             </div>
             <div className='hero-left-text'>
-                <p>I am a <span>developer</span> and <span>designer</span> from Perth, Western Australia who enjoys new technology and taking boring concepts and making them fun and pleasant to look at. </p>
+                <p>A <span>developer</span> and <span>designer</span> from Western Australia who enjoys discovering new technology that helps me make anything more exciting, fun and pleasant to look at. My best friend is a dog, which sounds like a cliche but really its sad.</p>
             </div>
         </section>
     )

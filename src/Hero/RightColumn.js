@@ -1,5 +1,5 @@
 
-import HeroImageLeft from '../Images/HeroImageLeft.png'
+import HeroImageLeft from '../Images/makestuff.png'
 import Designer from '../Images/Name-inflate.png'
 import { useState } from 'react';
 import { BrowserRouter } from 'react-router-dom';
