@@ -23,13 +23,16 @@
 .hero-container{
     display: grid;
     grid-template-columns: 1fr 1.2fr;
-    height: 100vh;
+    min-height: 100vh;
+    max-height: 100vh;
+    min-width: 90vw;
 }
 
 
 .left-column{
     display: flex;
     flex-direction: column;
+    max-height: 100vh;
 
 }
 
@@ -68,7 +71,7 @@
 
 .hero-left-text>p>span{
     color: #fc7a5b;
-    font-family: 'Sporting-Regular';
+    font-family: 'NeueMontreal-Medium';
     font-size: 23px;
     line-height: 20px;
 }
@@ -78,6 +81,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     gap: 0;
+    max-height: 100vh;
 }
 
 .hero-title{
@@ -168,3 +172,43 @@ a:visited {
     border-bottom-left-radius: 50px;
 
 }
+
+@media only screen and (max-width: 1366px) {
+
+    /* HERO RIGHT COLUMN */
+    .right-column{
+        gap: 3rem;
+    } 
+
+    .hero-title>h1{
+        font-size: 110px;   
+    }
+    .hero-title-images>img{
+        height:120%;
+        margin-top: -50px;
+        margin-left: -20px;
+    }
+    .right-column>img{
+        margin-top: 2rem;
+        height: 15rem;
+        
+    }
+    .hero-title>p{
+        margin-top: -50px;
+    }
+    .contact-button{
+        margin-left: 70%;
+        font-size: 25px;
+    }
+
+    /* HERO LEFT COLUMN */
+    .hero-left-text>p{
+        font-size: 20px;
+        line-height: 20px;
+        padding-top: 1rem;
+    }
+    .hero-left-text>p>span{
+        font-size: 20px;
+        font-family: 'NeueMontreal-Medium';
+    }
+    }

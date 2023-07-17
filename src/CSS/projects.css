@@ -102,3 +102,8 @@ p{
     background-color: #fc7a5b;
     transition: 0.8s cubic-bezier(0.5,-.3,.265,1);
 }
+
+
+@media only screen and (max-width: 1366px) {
+
+}

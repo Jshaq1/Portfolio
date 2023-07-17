@@ -20,3 +20,10 @@ html {
 a:visited {
   text-decoration: none;
 }
+
+@media only screen and (max-width: 1366px) {
+  body{
+    padding-left: 60px;
+  }
+
+}
