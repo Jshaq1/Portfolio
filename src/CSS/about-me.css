@@ -179,3 +179,10 @@
     font-family: 'NeueMontreal-Medium';
     font-size: 25px;
 }
+
+.underline-about{
+    height: 4px;
+    margin-top: -.5rem;
+    background-color: white;
+    transition: 0.8s cubic-bezier(0.5,-.3,.265,1);
+}

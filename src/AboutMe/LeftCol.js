@@ -29,7 +29,7 @@ function LeftCol() {
                     rel="noreferrer"
                 >VIEW RESUME</a>
                 <div
-                    className='underline'
+                    className='underline-about'
                     style={{
                         width: `${underLineW}px`,
 

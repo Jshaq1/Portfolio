@@ -3,7 +3,7 @@ import '../CSS/nav.css'
 import React, { useState } from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import { HashLink as Link } from 'react-router-hash-link'
-import BOX from '../Images/handboxlogo.png'
+import BOX from '../Images/handbox.png'
 
 
 
