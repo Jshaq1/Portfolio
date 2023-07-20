@@ -78,12 +78,12 @@
 .about-left-col h1{
     margin: 0;
     font-family: 'Sporting-Bold';
-    font-size: 70px;
+    font-size: 60px;
 }
 .about-left-col a{
     margin: 0;
     font-family: 'Sporting-Bold';
-    font-size: 30px;
+    font-size: 28px;
     color: white;
     text-decoration: none;
     width: fit-content;
@@ -92,7 +92,7 @@
 .about-left-col p{
     margin: 0;
     font-family: 'NeueMontreal-Medium';
-    font-size: 28px;
+    font-size: 25px;
     text-align: left;
     margin-top: 3rem;
     color: rgba(255, 255, 255, 0.885);
