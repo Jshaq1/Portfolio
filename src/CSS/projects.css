@@ -67,7 +67,7 @@ p{
 .carousel-inner{
     background: white;
     width: 97%;
-    height: fit-content;
+    height: 93%;
     border-top-left-radius: 60px;
     border-bottom-left-radius: 60px;
     display: flex;
@@ -105,5 +105,8 @@ p{
 
 
 @media only screen and (max-width: 1366px) {
-
+    .carousel-inner{
+        
+        height: 80%;
+    }
 }

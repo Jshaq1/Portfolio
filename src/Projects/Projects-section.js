@@ -6,8 +6,8 @@ function ProjectsSection() {
     return (
         <section id='work' className="projects-section">
             <section className="projects-header">
-                <div><h2>Works</h2></div>
-                <div><p>Check out some of my work, I think they're pretty neat.</p></div>
+                <div><h2>Work</h2></div>
+                <div><p>Check out some of my work, I think it's all pretty neat.</p></div>
             </section>
             <Carousel></Carousel>
         </section>

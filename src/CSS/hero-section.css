@@ -212,3 +212,15 @@ a:visited {
         font-family: 'NeueMontreal-Medium';
     }
     }
+
+
+/* Mobile */
+
+
+@media only screen and (max-width: 400px) {
+
+    /* HERO RIGHT COLUMN */
+    .hero-container{
+        max-width: 100vw;
+    }
+    }

@@ -1,7 +1,9 @@
 import { motion } from 'framer-motion';
 import { useRef, useEffect, useState } from 'react';
-import webprojects from './images'
+import webprojects from './ProjectsData'
 import '../CSS/slider.css'
+import { NavLink, Routes, Route } from 'react-router-dom';
+import CaseStudies from '../CaseStudies/CaseStudies';
 
 
 function Slider() {
