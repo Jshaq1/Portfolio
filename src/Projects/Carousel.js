@@ -23,7 +23,9 @@ function Carousel() {
 
             <section className='carousel-inner'>
                 <Slider></Slider>
-                <a href='https://github.com/Jshaq1'
+                <a
+                    className='view-all'
+                    href='https://github.com/Jshaq1'
                     ref={viewAll}
                     onMouseEnter={setWidth}
                     onMouseLeave={resetWidth}

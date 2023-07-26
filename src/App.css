@@ -21,6 +21,32 @@ a:visited {
   text-decoration: none;
 }
 
+.home{
+  opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: .6s;
+}
+
+.case-studies-body{
+  opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: .6s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
 @media only screen and (max-width: 1366px) {
   body{
     padding-left: 60px;

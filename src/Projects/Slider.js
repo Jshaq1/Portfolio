@@ -2,8 +2,8 @@ import { motion } from 'framer-motion';
 import { useRef, useEffect, useState } from 'react';
 import webprojects from './ProjectsData'
 import '../CSS/slider.css'
-import { NavLink, Routes, Route } from 'react-router-dom';
-import CaseStudies from '../CaseStudies/CaseStudies';
+import { Link } from 'react-router-dom';
+
 
 
 function Slider() {
@@ -31,8 +31,8 @@ function Slider() {
                             <div className='project-card'>
                                 <div className='project-details'>
                                     <h2>{project.title}</h2>
-                                    <button><a href={project.link}>TAKE A LOOK</a></button>
-                                    <p>{project.solution}</p>
+                                    <Link className='project-links' to={`/work/${project.title}`}><button>TAKE A LOOK</button></Link>
+                                    <p>{project.desc}</p>
                                 </div>
                                 <img src={project.image} ref={imageWidth} alt=''></img>
                             </div>

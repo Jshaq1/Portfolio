@@ -1,7 +1,6 @@
 import Header from "./Header";
 import '../CSS/nav.css'
 import React, { useState } from 'react';
-import { Routes, Route, BrowserRouter, NavLink } from 'react-router-dom';
 import { HashLink as Link } from 'react-router-hash-link'
 import BOX from '../Images/handbox.png'
 
@@ -11,7 +10,6 @@ import BOX from '../Images/handbox.png'
 function NavBar() {
     const [hideNavState, setHideNavState] = useState(false)
     const [isOpen, setOpen] = useState(false)
-    const [navState, setNavState] = useState('/')
 
 
     const handleHeaderClick = () => {
@@ -25,10 +23,10 @@ function NavBar() {
             <section className='side-menu-wrapper' >
                 <section className={isOpen ? 'side-menu-content-3 side-menu-content-3-active' : 'side-menu-content-3'}>
                     <section className="nav-link-container">
-                        <Link className='nav-links' to='/#hero' onClick={handleHeaderClick}>Home </Link>
-                        <Link className='nav-links' to='/#work' onClick={handleHeaderClick}>Works</Link>
-                        <Link className='nav-links' to='/#about' onClick={handleHeaderClick}>About</Link>
-                        <Link className='nav-links' to='/#contact' onClick={handleHeaderClick}>Contact</Link>
+                        <Link className={isOpen === false ? 'nav-links' : 'nav-links animate'} style={{ animationDelay: '0' }} to='/#hero' onClick={handleHeaderClick}>Home </Link>
+                        <Link className={isOpen === false ? 'nav-links' : 'nav-links animate'} style={{ animationDelay: '.2s' }} to='/#work' onClick={handleHeaderClick}>Works</Link>
+                        <Link className={isOpen === false ? 'nav-links' : 'nav-links animate'} style={{ animationDelay: '.4s' }} to='/#about' onClick={handleHeaderClick}>About</Link>
+                        <Link className={isOpen === false ? 'nav-links' : 'nav-links animate'} style={{ animationDelay: '.6s' }} to='/#contact' onClick={handleHeaderClick}>Contact</Link>
                     </section>
                     <img src={BOX} alt='Box with a hand coming out reaching for a cable' />
                 </section>

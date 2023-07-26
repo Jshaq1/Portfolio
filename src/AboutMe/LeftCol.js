@@ -21,7 +21,7 @@ function LeftCol() {
             <section className='about-left-col'>
                 <h1>ABOUT ME</h1>
                 <a
-                    href='https://chocolate-garnette-59.tiiny.site'
+                    href='https://salmon-kassie-16.tiiny.site/'
                     ref={viewAll}
                     onMouseEnter={setWidth}
                     onMouseLeave={resetWidth}

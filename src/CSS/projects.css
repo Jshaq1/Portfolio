@@ -82,7 +82,7 @@ p{
 }
 
 
-.carousel-inner a{
+.view-all{
     margin-top: 3rem;
     font-family: 'Sporting-Bold';
     font-size: 25px;
@@ -90,6 +90,7 @@ p{
     width: fit-content ;
 
 }
+
 
 .carousel-inner a:hover{
     transition:  0.2s cubic-bezier(0.5,0.3,.265,1);

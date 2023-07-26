@@ -11,7 +11,7 @@ function Header({ onClick, hamBurgerStatus }) {
 
     return (
         <header className={hamBurgerStatus ? 'side-menu active' : 'side-menu'}>
-            <Link className='logo' to='#hero'><img alt='logo' src={LOGO} /></Link>
+            <Link className='logo' to='/#hero'><img alt='logo' src={LOGO} /></Link>
             <div className='side-menu-click' onClick={onClick} >
                 <Hamburger
                     toggled={hamBurgerStatus}
