@@ -11,15 +11,13 @@ import WORDLE_HOME from '../Images/WORDLE_HOME.png'
 import CHURCHIE from '../Images/courosel-images/CCS.png'
 import HAVANA from '../Images/courosel-images/Havana Nights.png'
 import CURTIN from '../Images/courosel-images/poster_mockup_MD.png'
-import BAMBERTS from '../Images/Gallery-images/Bamberts.jpg'
-import BJM from '../Images/Gallery-images/BJM FINAL.jpg'
-import D9 from '../Images/Gallery-images/D9 Mockup.jpg'
-import D9POSTER from '../Images/Gallery-images/District9Poster.jpg'
-import JIMANDY from '../Images/Gallery-images/JIMANDY.jpg'
+import BleakMock from '../Images/Gallery-images/BlackMock.png'
+
 import MUSICFEST from '../Images/Gallery-images/Musicfest.jpg'
-import WILDTHINGS from '../Images/Gallery-images/Wherethewild.png'
-import SNOW from '../Images/Gallery-images/SnowPiercerPoster.jpg'
+import JonzinMock from '../Images/Gallery-images/JonzinMock.png'
+
 import SEAMOCK1 from '../Images/Gallery-images/SeacludedMock1.png'
+import SEAMOCK2 from '../Images/Gallery-images/Seamock2.png'
 
 const webprojects = [
     {
@@ -88,10 +86,10 @@ const webprojects = [
         'challenge': 'Using just base HTML, JS and CSS. Create a stylized version of the game "WORDLE" with replyability, working game logic and functional keyboard inputs',
         'solution': 'A series of film poster designs and film festival design assets, created to both advertise and increase ticket sales but also showcase student work.',
         'image': CURTIN,
-        'images': [MUSICFEST, WILDTHINGS, JIMANDY, D9POSTER, SNOW, BJM]
+        'images': [JonzinMock, BleakMock]
     },
     {
-        'title': 'SEACLUDED',
+        'title': 'SEACLUDED HARBOR',
         'link': '',
         'categories': 'Graphic Design',
         'techStack': ['HTML', 'JS', 'CSS'],
@@ -99,7 +97,7 @@ const webprojects = [
         'solution': 'Chirchie Grammar School in Brisbane required a simple, legible and reusable wordmark and logo design for their extended swim  club to wear proudly at competitions ',
         'desc': 'Design collatoral for a upcoming housing estate.',
         'image': SEAMOCK1,
-        'images': [JBDASH_CALC, JBDASH_CHAT]
+        'images': [SEAMOCK2, SEAMOCK1]
     },
     // {
     //     'title': 'CHURCHIE GRAMMAR',

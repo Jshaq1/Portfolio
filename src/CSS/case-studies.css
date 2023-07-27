@@ -233,19 +233,86 @@ h3{
     color: white;
 }
 
-.gallery{
-    width: 100%;
-    padding: 3rem;
+.project-gallery{
     display: flex;
-    gap: 2rem;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 185vh;
+    padding-bottom: 3rem;
+   
 }
 
-.gallery img{
-    height: 600px;
-    width: 450px;
-    image-resolution: 200dpi
+.gallery1{
+    background: white;
+    width: 90%;
+    height: fit-content;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    display: flex;
+    justify-content: center;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    padding-bottom: 3rem;
+    overflow: hidden;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    transition: 0.8s cubic-bezier(0.5,-.3,.265,1);
+}
+
+.gallery-section-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    color: white;
+    gap: 1rem;
+}
+
+.gallery-section-1 h2{
+   padding-left: 3rem;
+    margin-bottom: 0;
+}
+
+.gallery-section-2{
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    flex-direction: column;
+    color: white;
+    gap: 1rem;
+}
+
+.gallery-section-2 h2{
+    padding-right: 3rem;
+    margin-bottom: 0;
+ }
+
+.gallery2{
+    background: white;
+    width: 90%;
+    height: fit-content;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+    display: flex;
+    justify-content: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 3rem;
+    overflow: hidden;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    transition: 0.8s cubic-bezier(0.5,-.3,.265,1);
+}
+
+.gallery1 img{
+    object-fit: contain;
+    max-height: 700px;
+    justify-content: center;
+    animation: .8s cubic-bezier(0.5,-.3,.265,1) slideInFromLeft;
+}
+
+.gallery2 img{
+    object-fit: contain;
+    max-height: 700px;
+    justify-content: center;
+    animation: .8s cubic-bezier(0.5,-.3,.265,1) slideInFromRight;
 }
 
 
@@ -260,10 +327,19 @@ h3{
 
 @keyframes slideInFromLeft {
     0% {
-      transform: translateX(-100%);
+        transform: translateX(-100%) skew(-.312rad);
+      }
+      100% {
+        transform: translateX(0) skew(0);
+      }
+    }
+
+  @keyframes slideInFromRight {
+    0% {
+      transform: translateX(100%) skew(.312rad);
     }
     100% {
-      transform: translateX(0);
+      transform: translateX(0) skew(0);
     }
   }
 
