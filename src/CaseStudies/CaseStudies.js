@@ -33,6 +33,7 @@ function CaseStudies() {
                 :
                 <Gallery
                     images={selectedProject[0].images}
+                    techstack={selectedProject[0].techStack}
                 />}
         </section>
 

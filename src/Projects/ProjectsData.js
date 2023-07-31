@@ -16,8 +16,9 @@ import BleakMock from '../Images/Gallery-images/BlackMock.png'
 import MUSICFEST from '../Images/Gallery-images/Musicfest.jpg'
 import JonzinMock from '../Images/Gallery-images/JonzinMock.png'
 
-import SEAMOCK1 from '../Images/Gallery-images/SeacludedMock1.png'
-import SEAMOCK2 from '../Images/Gallery-images/Seamock2.png'
+import SEACLUDED from '../Images/Gallery-images/SeacludedMock1.png'
+import SEAMOCK1 from '../Images/Gallery-images/SeaMock1.png'
+import SEAMOCK2 from '../Images/Gallery-images/SeaMock2.png'
 
 const webprojects = [
     {
@@ -82,7 +83,7 @@ const webprojects = [
         'title': 'CURTIN GUILD',
         'link': '',
         'categories': 'Graphic Design',
-        'techStack': ['HTML', 'JS', 'CSS'],
+        'techStack': ['Jonzin Film Fest', 'Bleak Film Fest'],
         'challenge': 'Using just base HTML, JS and CSS. Create a stylized version of the game "WORDLE" with replyability, working game logic and functional keyboard inputs',
         'solution': 'A series of film poster designs and film festival design assets, created to both advertise and increase ticket sales but also showcase student work.',
         'image': CURTIN,
@@ -92,11 +93,11 @@ const webprojects = [
         'title': 'SEACLUDED HARBOR',
         'link': '',
         'categories': 'Graphic Design',
-        'techStack': ['HTML', 'JS', 'CSS'],
+        'techStack': ['Logo - Signage', 'Editorial'],
         'challenge': 'Using just base HTML, JS and CSS. Create a stylized version of the game "WORDLE" with replyability, working game logic and functional keyboard inputs',
         'solution': 'Chirchie Grammar School in Brisbane required a simple, legible and reusable wordmark and logo design for their extended swim  club to wear proudly at competitions ',
         'desc': 'Design collatoral for a upcoming housing estate.',
-        'image': SEAMOCK1,
+        'image': SEACLUDED,
         'images': [SEAMOCK2, SEAMOCK1]
     },
     // {

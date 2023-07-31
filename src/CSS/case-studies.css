@@ -303,16 +303,36 @@ h3{
 
 .gallery1 img{
     object-fit: contain;
-    max-height: 700px;
+    max-height: 600px;
     justify-content: center;
     animation: .8s cubic-bezier(0.5,-.3,.265,1) slideInFromLeft;
 }
 
 .gallery2 img{
     object-fit: contain;
-    max-height: 700px;
+    max-height: 600px;
     justify-content: center;
     animation: .8s cubic-bezier(0.5,-.3,.265,1) slideInFromRight;
+}
+
+@media only screen and (max-width: 1366px) {
+
+    .gallery1 img{
+        object-fit: contain;
+        max-height: 550px;
+        min-height: 200px;
+      
+    }
+    
+    .gallery2 img{
+        object-fit: contain;
+        max-height: 550px;
+        min-height: 200px;
+        
+    }
+
+
+    
 }
 
 
