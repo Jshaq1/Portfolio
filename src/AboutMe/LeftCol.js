@@ -35,7 +35,7 @@ function LeftCol() {
 
                     }}
                 ></div>
-                <p>Purpose driven Junior full-stack developer and aspiring UI designer. With a background in graphic design and a keen interest in the way people interact with technology I am partial to the front-end where I really use my experience. <br></br><br></br> Venturing into software developement I strive to seek out opportunities to bring creativity and new perspective to projects that deserve to be exciting, enjoyable and accessible. I am constantly on the lookout for new inspiration and technologies to enable creativity and usability in my work. <br></br><br></br> Simply put I love to take something ordinary and making it exciting, usable and most importantly fun.</p>
+                <p>Purpose driven Junior full-stack developer and aspiring UI designer. With a background in graphic design and a keen interest in the way people interact with technology I am partial to the front-end where I really use my experience. <br></br><br></br> Venturing into software developement I strive to seek out opportunities to bring creativity and new perspective to projects that deserve to be exciting, enjoyable and accessible. I am constantly on the lookout for new inspiration and technologies to enable creativity and usability in my work. <br></br><br></br> Simply put I love to take something ordinary and makie it exciting, usable and most importantly fun.</p>
             </section>
         </section>
     )
