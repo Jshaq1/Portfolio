@@ -1,12 +1,13 @@
 import './App.css';
 import NavBar from './Nav/NavBar';
-import Hero from './Hero/Hero'
-import ProjectsSection from './Projects/Projects-section';
-import AboutMe from './AboutMe/AboutMe';
-import ContactSection from './Contact/ContactSection';
-import { Routes, Route, BrowserRouter, NavLink } from 'react-router-dom';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import CaseStudies from './CaseStudies/CaseStudies';
 import Home from './Home';
+import ReactGA from 'react-ga';
+
+const TRACKING_ID = "G-X1PDY0H2TY"; // OUR_TRACKING_ID
+ReactGA.initialize(TRACKING_ID);
+
 
 function App() {
   return (
