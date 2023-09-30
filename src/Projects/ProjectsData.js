@@ -15,7 +15,7 @@ import JonzinMock from '../Images/Gallery-images/JonzinMock.png'
 
 import SEACLUDED from '../Images/Gallery-images/SeacludedMock1.png'
 import SEAMOCK1 from '../Images/Gallery-images/SeaMock1.png'
-import SEAMOCK2 from '../Images/Gallery-images/SeaMock2.png'
+import SEAMOCK2 from '../Images/Gallery-images/SeaMock.png'
 
 const webprojects = [
     {
