@@ -1,5 +1,6 @@
 import ProjectLink from "./ProjectLink";
 import ARROW from '../Images/up-right-arrow.png'
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 function Summary({ summary, challenge, solution, images, link, techStack }) {
 
@@ -41,7 +42,7 @@ function Summary({ summary, challenge, solution, images, link, techStack }) {
             </article>
             <div className="case-study-image">
                 {images.map(img => {
-                    return <img alt={img} src={img} />
+                    return <LazyLoadImage src={img} alt={img} />
                 })}
             </div>
 
