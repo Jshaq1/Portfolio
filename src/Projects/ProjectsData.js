@@ -8,12 +8,9 @@ import JBDASH_CALC from '../Images/JBDASH_CALC.png'
 import JBDASH_CHAT from '../Images/JBDASH_CHAT.png'
 import WORDLE from '../Images/courosel-images/WORDLE.png'
 import WORDLE_HOME from '../Images/WORDLE_HOME.png'
-import CHURCHIE from '../Images/courosel-images/CCS.png'
-import HAVANA from '../Images/courosel-images/Havana Nights.png'
 import CURTIN from '../Images/courosel-images/poster_mockup_MD.png'
 import BleakMock from '../Images/Gallery-images/BlackMock.png'
 
-import MUSICFEST from '../Images/Gallery-images/Musicfest.jpg'
 import JonzinMock from '../Images/Gallery-images/JonzinMock.png'
 
 import SEACLUDED from '../Images/Gallery-images/SeacludedMock1.png'

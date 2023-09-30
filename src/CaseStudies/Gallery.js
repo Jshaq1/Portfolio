@@ -1,7 +1,6 @@
 
 function Gallery({ images, techstack }) {
 
-
     return (
         <section className='project-gallery'>
             <section className='gallery-section-1'>
