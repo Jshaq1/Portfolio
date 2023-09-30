@@ -3,10 +3,10 @@ import NavBar from './Nav/NavBar';
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import CaseStudies from './CaseStudies/CaseStudies';
 import Home from './Home';
-// import ReactGA from 'react-ga';
+import ReactGA from 'react-ga';
 
-// const TRACKING_ID = "G-X1PDY0H2TY"; // OUR_TRACKING_ID
-// ReactGA.initialize(TRACKING_ID);
+const TRACKING_ID = "G-X1PDY0H2TY"; // OUR_TRACKING_ID
+ReactGA.initialize(TRACKING_ID);
 
 
 function App() {
