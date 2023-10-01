@@ -15,7 +15,7 @@ function ContactSection() {
                     <h4>(I sound lonely.. I'm not I promise)</h4>
                 </div>
                 <div className='contact-details'>
-                    <h2>JORDANSHAQALLEN@GMAIL.COM</h2>
+                    <h2>JRDNALLENDEV@GMAIL.COM</h2>
                     <h2>0468 897 142</h2>
                     <div className='social-links contact'>
                         <a href='https://www.linkedin.com/in/jordan-allen-36ab53149/' target="_blank" rel="noreferrer"><img alt='Linkedin Logo' src={LINKEDIN} /></a>
