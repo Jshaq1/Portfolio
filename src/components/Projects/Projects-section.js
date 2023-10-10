@@ -1,4 +1,4 @@
-import '../CSS/projects.css';
+import '../../css/projects.css';
 import Carousel from './Carousel';
 
 const ProjectsSection = () => {

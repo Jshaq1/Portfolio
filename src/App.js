@@ -1,7 +1,7 @@
 import './App.css';
-import NavBar from './Nav/NavBar';
+import NavBar from './components/Nav/NavBar'
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
-import CaseStudies from './CaseStudies/CaseStudies';
+import CaseStudies from './components/CaseStudies/CaseStudies';
 import Home from './Home';
 import ReactGA from 'react-ga';
 

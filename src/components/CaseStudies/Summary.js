@@ -1,5 +1,5 @@
 import ProjectLink from "./ProjectLink";
-import ARROW from '../Images/up-right-arrow.png'
+import ARROW from '../../Images/up-right-arrow.png'
 
 const Summary = ({ summary, challenge, solution, images, link, techStack }) => {
 

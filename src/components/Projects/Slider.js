@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { useRef, useEffect, useState } from 'react';
 import webprojects from './ProjectsData'
-import '../CSS/slider.css'
+import '../../css/slider.css'
 import { Link } from 'react-router-dom';
 
 

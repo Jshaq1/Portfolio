@@ -3,7 +3,7 @@ import Summary from "./Summary";
 import Gallery from "./Gallery";
 import { useParams } from "react-router-dom";
 import webprojects from "../Projects/ProjectsData";
-import '../CSS/case-studies.css';
+import '../../css/case-studies.css';
 import { useEffect } from "react";
 
 const CaseStudies = () => {

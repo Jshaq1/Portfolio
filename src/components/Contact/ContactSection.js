@@ -1,7 +1,7 @@
-import '../CSS/contact.css'
-import GITHUB from '../Images/github-sign (1).png'
-import LINKEDIN from '../Images/linkedin.png'
-import INSTAGRAM from '../Images/instagram.png'
+import '../../css/contact.css'
+import GITHUB from '../../Images/github-sign (1).png'
+import LINKEDIN from '../../Images/linkedin.png'
+import INSTAGRAM from '../../Images/instagram.png'
 
 
 const ContactSection = () => {

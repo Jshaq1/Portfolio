@@ -1,5 +1,5 @@
 
-import LOGO from '../Images/JRDN LOGO.png'
+import LOGO from '../../Images/JRDN LOGO.png'
 
 
 

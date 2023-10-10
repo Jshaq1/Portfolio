@@ -1,8 +1,8 @@
 import Header from "./Header";
-import '../CSS/nav.css'
+import '../../css/nav.css'
 import React, { useState } from 'react';
 import { HashLink as Link } from 'react-router-hash-link'
-import BOX from '../Images/handbox.png'
+import BOX from '../../Images/handbox.png'
 
 
 

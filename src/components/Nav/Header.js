@@ -1,7 +1,7 @@
-import GITHUB from '../Images/github-sign (1).png'
-import LINKEDIN from '../Images/linkedin.png'
+import GITHUB from '../../Images/github-sign (1).png'
+import LINKEDIN from '../../Images/linkedin.png'
 import { Squash as Hamburger } from 'hamburger-react'
-import LOGO from '../Images/logo.png'
+import LOGO from '../../Images/logo.png'
 import { HashLink as Link } from 'react-router-hash-link'
 
 

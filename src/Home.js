@@ -1,8 +1,8 @@
 import './App.css';
-import Hero from './Hero/Hero'
-import ProjectsSection from './Projects/Projects-section';
-import AboutMe from './AboutMe/AboutMe';
-import ContactSection from './Contact/ContactSection';
+import Hero from './components/Hero/Hero'
+import ProjectsSection from './components/Projects/Projects-section';
+import AboutMe from './components/AboutMe/AboutMe';
+import ContactSection from './components/Contact/ContactSection';
 
 function Home() {
 

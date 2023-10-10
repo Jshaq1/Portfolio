@@ -1,6 +1,6 @@
 
-import HeroImageLeft from '../Images/makestuff.png'
-import Designer from '../Images/Name-inflate.png'
+import HeroImageLeft from '../../Images/makestuff.png'
+import Designer from '../../Images/Name-inflate.png'
 import { useState } from 'react';
 import { HashLink as Link } from 'react-router-hash-link'
 
