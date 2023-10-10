@@ -3,7 +3,7 @@ import LeftCol from './LeftCol';
 import RightCol from './RightCol';
 
 
-function AboutMe() {
+const AboutMe = () => {
 
     return (
         <section id='about' className='about-me-container'>

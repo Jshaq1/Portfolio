@@ -2,9 +2,7 @@ import '../CSS/hero-section.css'
 import LeftColumn from './LeftColumn'
 import RightColumn from './RightColumn'
 
-function Hero() {
-
-
+const Hero = () => {
     return (
         <section id='hero' className='hero-container'>
             <LeftColumn />

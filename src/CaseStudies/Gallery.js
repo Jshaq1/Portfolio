@@ -1,5 +1,5 @@
 
-function Gallery({ images, techstack }) {
+const Gallery = ({ images, techstack }) => {
 
     return (
         <section className='project-gallery'>

@@ -9,7 +9,7 @@ const TRACKING_ID = "G-X1PDY0H2TY"; // OUR_TRACKING_ID
 ReactGA.initialize(TRACKING_ID);
 
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <BrowserRouter>

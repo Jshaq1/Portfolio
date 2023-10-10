@@ -7,7 +7,7 @@ import BOX from '../Images/handbox.png'
 
 
 
-function NavBar() {
+const NavBar = () => {
     const [hideNavState, setHideNavState] = useState(false)
     const [isOpen, setOpen] = useState(false)
 

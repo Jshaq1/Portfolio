@@ -1,7 +1,7 @@
 import '../CSS/projects.css';
 import Carousel from './Carousel';
 
-function ProjectsSection() {
+const ProjectsSection = () => {
 
     return (
         <section id='work' className="projects-section">

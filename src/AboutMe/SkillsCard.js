@@ -1,6 +1,6 @@
 
 
-function SkillsCard({ index, details }) {
+const SkillsCard = ({ index, details }) => {
     const { title, techStack, expect } = details
 
     return (

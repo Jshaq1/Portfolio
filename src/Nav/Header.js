@@ -1,12 +1,11 @@
 import GITHUB from '../Images/github-sign (1).png'
 import LINKEDIN from '../Images/linkedin.png'
-import INSTAGRAM from '../Images/instagram.png'
 import { Squash as Hamburger } from 'hamburger-react'
 import LOGO from '../Images/logo.png'
 import { HashLink as Link } from 'react-router-hash-link'
 
 
-function Header({ onClick, hamBurgerStatus }) {
+const Header = ({ onClick, hamBurgerStatus }) => {
 
 
     return (
@@ -26,7 +25,6 @@ function Header({ onClick, hamBurgerStatus }) {
             <div className='social-links'>
                 <a href='https://github.com/Jshaq1' target="_blank" rel="noreferrer"><img alt='Github Logo' src={GITHUB} /></a>
                 <a href='https://www.linkedin.com/in/jordan-allen-36ab53149/' target="_blank" rel="noreferrer"><img alt='Linkedin Logo' src={LINKEDIN} /></a>
-                {/* <a href='https://www.instagram.com/_jrdn.a/?hl=en' target="_blank" rel="noreferrer"><img alt='Instagram Logo' src={INSTAGRAM} /></a> */}
             </div>
         </header>
     )

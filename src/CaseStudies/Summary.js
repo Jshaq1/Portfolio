@@ -1,7 +1,7 @@
 import ProjectLink from "./ProjectLink";
 import ARROW from '../Images/up-right-arrow.png'
 
-function Summary({ summary, challenge, solution, images, link, techStack }) {
+const Summary = ({ summary, challenge, solution, images, link, techStack }) => {
 
     return (
         <section className='case-summary'>

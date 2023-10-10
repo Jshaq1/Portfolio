@@ -1,6 +1,6 @@
 import { useRef, useEffect, useState } from 'react';
 
-function LeftCol() {
+const LeftCol = () => {
     const [underLineW, setUnderlineW] = useState()
     const viewAll = useRef()
 

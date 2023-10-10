@@ -1,7 +1,7 @@
 
 
 
-function CaseStudyHeader({ title, category, image }) {
+const CaseStudyHeader = ({ title, category, image }) => {
 
     return (
         <section className='case-header' style={{ backgroundImage: `linear-gradient(to bottom, rgba(255, 255, 255, 0), #1a1a1a), url(${image})` }}>

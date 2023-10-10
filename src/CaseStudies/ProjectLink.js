@@ -1,5 +1,5 @@
 
-function ProjectLink() {
+const ProjectLink = () => {
 
     const buttonText = 'GO ON TAKE A LOOK * GO ON TAKE A LOOK * '
 

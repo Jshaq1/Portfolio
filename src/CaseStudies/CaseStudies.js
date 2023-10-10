@@ -6,7 +6,7 @@ import webprojects from "../Projects/ProjectsData";
 import '../CSS/case-studies.css';
 import { useEffect } from "react";
 
-function CaseStudies() {
+const CaseStudies = () => {
     let { project } = useParams()
 
     const selectedProject = webprojects.filter(work => work.title === project)
@@ -22,7 +22,7 @@ function CaseStudies() {
                 category={selectedProject[0].categories}
                 image={selectedProject[0].image}
             />
-            {selectedProject[0].categories === 'Web Design' ?
+            {selectedProject[0].categories === 'Web Design' || selectedProject[0].categories === 'Branding' ?
                 <Summary
                     summary={selectedProject[0].summary}
                     challenge={selectedProject[0].challenge}

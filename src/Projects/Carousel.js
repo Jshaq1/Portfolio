@@ -1,7 +1,7 @@
 import Slider from './Slider'
 import { useRef, useEffect, useState } from 'react';
 
-function Carousel() {
+const Carousel = () => {
     const [underLineW, setUnderlineW] = useState()
     const viewAll = useRef()
 

@@ -6,12 +6,13 @@ import { Link } from 'react-router-dom';
 
 
 
-function Slider() {
+const Slider = () => {
     const [width, setWidth] = useState(0)
     const carousel = useRef()
     const imageWidth = useRef()
 
     useEffect(() => {
+        console.log(carousel.current.scrollWidth, carousel.current.offsetWidth)
         setWidth((carousel.current.scrollWidth - carousel.current.offsetWidth))
     }, [])
 

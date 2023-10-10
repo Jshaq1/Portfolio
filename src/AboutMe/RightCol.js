@@ -1,7 +1,7 @@
 import aboutMeData from "./aboutMeData"
 import SkillsCard from "./SkillsCard"
 
-function RightCol() {
+const RightCol = () => {
 
 
     return (

@@ -4,7 +4,7 @@ import LINKEDIN from '../Images/linkedin.png'
 import INSTAGRAM from '../Images/instagram.png'
 
 
-function ContactSection() {
+const ContactSection = () => {
 
     return (
         <section className='contact-section' id="contact">
