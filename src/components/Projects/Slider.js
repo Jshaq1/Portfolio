@@ -3,7 +3,7 @@ import { useRef, useEffect, useState } from 'react';
 import webprojects from './ProjectsData'
 import '../../css/slider.css'
 import { Link } from 'react-router-dom';
-
+import ARROW from '../../Images/up-right-arrow.png'
 
 
 const Slider = () => {
@@ -12,7 +12,6 @@ const Slider = () => {
     const imageWidth = useRef()
 
     useEffect(() => {
-        console.log(carousel.current.scrollWidth, carousel.current.offsetWidth)
         setWidth((carousel.current.scrollWidth - carousel.current.offsetWidth))
     }, [])
 
@@ -23,7 +22,7 @@ const Slider = () => {
         >
             <motion.div
                 drag='x'
-                dragConstraints={{ right: 0, left: -width }}
+                dragConstraints={{ right: 0, left: 0 - width }}
                 whileTap={{ cursor: 'grabbing' }}
                 className='inner-carousel'>
                 {webprojects.map((project, idx) => {
@@ -32,7 +31,7 @@ const Slider = () => {
                             <div className='project-card'>
                                 <div className='project-details'>
                                     <h2>{project.title}</h2>
-                                    <Link className='project-links' to={`/work/${project.title}`}><button>TAKE A LOOK</button></Link>
+                                    <Link className='project-links' to={`/work/${project.title}`}><button>{project.categories.toUpperCase()}</button></Link>
                                     <p>{project.desc}</p>
                                 </div>
                                 <img src={project.image} ref={imageWidth} alt=''></img>

@@ -106,6 +106,10 @@
 
 }
 
+.btnarw{
+    max-width: 10%;
+}
+
 @media only screen and (max-width: 1366px) {
 
     .item{
