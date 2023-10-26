@@ -1,9 +1,8 @@
 import { motion } from 'framer-motion';
 import { useRef, useEffect, useState } from 'react';
 import webprojects from './ProjectsData'
-import '../../css/slider.module.css'
+import '../../css/slider.css'
 import { Link } from 'react-router-dom';
-import ARROW from '../../Images/up-right-arrow.png'
 
 
 const Slider = () => {

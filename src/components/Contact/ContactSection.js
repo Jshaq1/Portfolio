@@ -1,4 +1,4 @@
-import '../../css/contact.module.css'
+import '../../css/contact.css'
 import GITHUB from '../../Images/github-sign (1).png'
 import LINKEDIN from '../../Images/linkedin.png'
 import INSTAGRAM from '../../Images/instagram.png'

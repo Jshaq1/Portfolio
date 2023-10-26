@@ -1,4 +1,4 @@
-import '../../css/about-me.module.css'
+import '../../css/about-me.css'
 import LeftCol from './LeftCol';
 import RightCol from './RightCol';
 
