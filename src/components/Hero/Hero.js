@@ -1,4 +1,4 @@
-import '../../css/hero-section.css'
+import '../../css/hero-section.module.css'
 import LeftColumn from './LeftColumn'
 import RightColumn from './RightColumn'
 
