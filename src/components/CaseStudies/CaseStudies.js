@@ -15,6 +15,8 @@ const CaseStudies = () => {
         window.scrollTo(0, 0)
     }, [])
 
+    const summaries = ['Web Design', 'Branding', 'Software Dev']
+
     return (
         <section className="case-studies-body">
             <CaseStudyHeader
@@ -22,7 +24,7 @@ const CaseStudies = () => {
                 category={selectedProject[0].categories}
                 image={selectedProject[0].image}
             />
-            {selectedProject[0].categories === 'Web Design' || selectedProject[0].categories === 'Branding' ?
+            {summaries.includes(selectedProject[0].categories) ?
                 <Summary
                     summary={selectedProject[0].summary}
                     challenge={selectedProject[0].challenge}

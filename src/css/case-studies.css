@@ -11,7 +11,7 @@
   
   }
 
-  @font-face {
+@font-face {
     font-family: 'NeueMontreal-Medium';
     src: local('NeueMontreal-Medium'),
          url('../fonts/NeueMontreal-Medium.woff') format('woff');
@@ -214,19 +214,23 @@ h3{
     gap: .7rem;
     width: 70%;
     justify-content: left;
-    padding-left: 2rem;
     margin-bottom: 1rem;
 }
 
 
 .tech{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 2px solid #ffffff;
     width: fit-content;
     padding: .8rem;
+    padding-inline: 1.2rem;
     border-radius: 30px;
-    font-family: 'Sporting-Regular';
-    font-size: 15px;
+    font-family: 'NeueMontreal-Medium';
+    font-size: 14px;
     color: white;
+    vertical-align: baseline;
 }
 
 .highlight{

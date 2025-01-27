@@ -25,18 +25,20 @@ const Summary = ({ summary, challenge, solution, images, link, techStack }) => {
                     <h3>SOLUTION</h3>
                     <p>{solution}</p>
                 </div>
-                <h3> TECH STACK</h3>
-                <div className='techs'>
-                    {techStack.map((tech, idx) => {
-                        return (
-                            <div
-                                key={idx}
-                                className={idx === 0 || idx === techStack.length - 1 ? 'highlight tech' : 'tech'}
-                            >
-                                {tech.toUpperCase()}
-                            </div>
-                        )
-                    })}
+                <div className="case-details">
+                    <h3> TECH STACK</h3>
+                    <div className='techs'>
+                        {techStack.map((tech, idx) => {
+                            return (
+                                <div
+                                    key={idx}
+                                    className={idx === 0 || idx === techStack.length - 1 ? 'highlight tech' : 'tech'}
+                                >
+                                    {tech.toUpperCase()}
+                                </div>
+                            )
+                        })}
+                    </div>
                 </div>
             </article>
             <div className="case-study-image">

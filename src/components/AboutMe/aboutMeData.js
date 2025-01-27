@@ -1,9 +1,9 @@
 const aboutMeData = [
     {
         'title': 'Developer',
-        'techStack': ['React', 'HTML5', 'JavaScript', 'CSS3', 'Python', 'Express.js', 'MYSQL', 'Postgres', 'Flask', 'Heroku', 'Webflow', 'Wordpress', 'MUI', 'FireBase', 'Google Auth', 'Emotion', 'GitHub'],
+        'techStack': ['React', 'NextJs', 'HTML5', 'JavaScript', 'CSS3', 'Python', 'Django', 'MYSQL', 'Postgres', 'Browserstack', 'Jest', 'Wordpress', 'MUI', 'FireBase', 'Google Auth', 'Git'],
         'about': 'Passionate about the front-end, I strive to seek out new technologies that allow me to create engaging and fun experiences. I like to get stuck into learning new concepts and tinkering with alternate ways of doing things.',
-        'expect': ['User focused problem solving', 'Learning fast', 'Adapt quickly to new technologies', 'Functional and concise code']
+        'expect': ['User focused problem solving', 'Test focused', 'Adapt quickly to new technologies', 'Functional and concise code']
 
     },
     {

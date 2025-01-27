@@ -17,8 +17,38 @@ import SEAMOCK2 from '../../Images/Gallery-images/SeaMock.png'
 import ChurchieLogo from '../../Images/CCS.png'
 import ChurchieLogo2 from '../../Images/Churchie.jpg'
 import ChurchieMock from '../../Images/ChurchieKids.png'
+import Busmin_Carousel from '../../Images/courosel-images/Busmin_Carousel.png'
+import Busmin from '../../Images/Busmin.png'
+import Busmin_alt from '../../Images/Busmin_alt.png'
+import AXSDash from '../../Images/AXSDash.png'
+import AXS_Tire from '../../Images/AXS_Tire.png'
+import AXS_Carousel from '../../Images/courosel-images/AXS_Carousel.png'
 
 const webprojects = [
+    {
+        'title': 'BUSMIN',
+        'link': 'https://www.busmin.ai/',
+        'categories': 'Software Dev',
+        'techStack': ['React', 'Redux', 'Django', 'Firebase', 'MUI', 'ChartJS', 'RTK QUERY', 'MYOB'],
+        'summary': 'A Business management tool designed to minimise the busy-work and enable staff to focus on the real work.',
+        'challenge': 'Integrate all current internal business management tools into one easy to use, easy to understand and easy to customise tool. My role specifically was to ideate and liase with the design team and management team to implement new front-end features and functionality',
+        'solution': 'Working closely with the design team, I was fortunate to work on some key features of the app. Including the creation of business insights and analytics. A feature that allows management to see the performance and health of their business in real time based on live user data and MYOB syncs. I was also personally responsible for the integration of user comments/tagging and the notifications system. It was imperative to maintain open communication with the design team and management to ensure that the features were both user friendly and met the needs of the business.',
+        'desc': 'A Business management tool designed to minimise the busy-work and enable staff to focus on the real work.',
+        'image': Busmin_Carousel,
+        'images': [Busmin, Busmin_alt]
+    },
+    {
+        'title': 'AXS WEB',
+        'link': 'https://www.sram.com/en/life/stories/introducing-sram-axs-web',
+        'categories': 'Software Dev',
+        'techStack': ['React', 'Redux', 'Django', 'MUI', 'SAAS CSS', 'ChartJS', 'Google Maps API', 'Jest', 'BrowserStack'],
+        'summary': 'A web tool designed for riders who want to better understand and improve their experience on the bike.',
+        'challenge': 'Ongoing maintenance and feature development of the AXS Web platform, communicating with product managers and designers to ensure that the features and functionality of the platform are both user friendly and meet the needs of the business.',
+        'solution': 'My role was to work closely with the design team and product manager to implement new front-end features and functionality as well as maintain and update existing features often as a response to user feedback. I spent alot of time maintaining and updating the CI-CD pipelines, making use of the browser stack testing platform to ensure user experience was consistent across all devices. I was heavily involved in updating some of the core features of the platform, including a complete overhaul of the tire pressure calculator, chain length guide and state management system.',
+        'desc': ' A web tool designed for riders who want to better understand and improve their experience on the bike.',
+        'image': AXS_Carousel,
+        'images': [AXSDash, AXS_Tire]
+    },
     {
         'title': 'JB DASH',
         'link': 'https://jshaq1.github.io/Project_4-ShiftPosting',
