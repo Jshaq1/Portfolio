@@ -21,7 +21,7 @@ const LeftCol = () => {
             <section className='about-left-col'>
                 <h1>ABOUT ME</h1>
                 <a
-                    href='https://salmon-kassie-16.tiiny.site/'
+                    href='/files/JordanResume.pdf'
                     ref={viewAll}
                     onMouseEnter={setWidth}
                     onMouseLeave={resetWidth}
