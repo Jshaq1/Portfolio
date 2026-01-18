@@ -12,7 +12,7 @@ const Summary = ({ summary, challenge, solution, images, link, techStack }) => {
                         <img alt="arrow" src={ARROW}></img>
                     </div>
                     <div className="project-link-container">
-                        <ProjectLink />
+                        {link && <ProjectLink />}
                     </div>
                 </a>
             </div>

@@ -17,37 +17,34 @@ import SEAMOCK2 from '../../Images/Gallery-images/SeaMock.png'
 import ChurchieLogo from '../../Images/CCS.png'
 import ChurchieLogo2 from '../../Images/Churchie.jpg'
 import ChurchieMock from '../../Images/ChurchieKids.png'
-import Busmin_Carousel from '../../Images/courosel-images/Busmin_Carousel.png'
-import Busmin from '../../Images/Busmin.png'
-import Busmin_alt from '../../Images/Busmin_alt.png'
-import AXSDash from '../../Images/AXSDash.png'
-import AXS_Tire from '../../Images/AXS_Tire.png'
-import AXS_Carousel from '../../Images/courosel-images/AXS_Carousel.png'
+import MountainBike from '../../Images/courosel-images/MountainBike.jpg'
+import MountainBike2 from '../../Images/courosel-images/MountainBike2.jpg'
+import DataDashboard from '../../Images/courosel-images/DataDashboard.svg'
 
 const webprojects = [
     {
-        'title': 'BUSMIN',
-        'link': 'https://www.busmin.ai/',
+        'title': 'Analytics Dashboard',
+        'link': null,
         'categories': 'Software Dev',
-        'techStack': ['React', 'Redux', 'Django', 'Firebase', 'MUI', 'ChartJS', 'RTK QUERY', 'MYOB'],
+        'techStack': ['React', 'Redux', 'Django', 'Firebase', 'MUI', 'ChartJS', 'RTK QUERY', 'MYOB', 'Docker'],
         'summary': 'A Business management tool designed to minimise the busy-work and enable staff to focus on the real work.',
         'challenge': 'Integrate all current internal business management tools into one easy to use, easy to understand and easy to customise tool. My role specifically was to ideate and liase with the design team and management team to implement new front-end features and functionality',
-        'solution': 'As part of my role as a front-end engineer, I worked closely with designers and product stakeholders to contribute to the implementation and refinement of several user-facing features. This included work on business insights and analytics views, enabling real-time visibility into operational performance using live data integrations.I also contributed to user communication features such as commenting, tagging, and notification flows, with a focus on clarity, usability, and alignment with existing product patterns. My work involved translating design intent into maintainable front-end components while collaborating with cross-functional teams to ensure changes met both user and business requirements. Work performed as part of my role as an employee of Element Engineering. All product IP belongs to the respective company.',
+        'solution': 'As part of my role as a front-end engineer, I worked closely with designers and product stakeholders to contribute to the implementation and refinement of several user-facing features. This included work on business insights and analytics views, enabling real-time visibility into operational performance using live data integrations.I also contributed to user communication features such as commenting, tagging, and notification flows, with a focus on clarity, usability, and alignment with existing product patterns. My work involved translating design intent into maintainable front-end components while collaborating with cross-functional teams to ensure changes met both user and business requirements. Work performed as part of my role as an employee. All product IP belongs to the respective company.',
         'desc': 'A Business management tool designed to minimise the busy-work and enable staff to focus on the real work.',
-        'image': Busmin_Carousel,
-        'images': [Busmin, Busmin_alt]
+        'image': DataDashboard,
+        'images': [DataDashboard]
     },
     {
-        'title': 'AXS WEB',
-        'link': 'https://www.sram.com/en/life/stories/introducing-sram-axs-web',
+        'title': 'IoT Data Platform',
+        'link': null,
         'categories': 'Software Dev',
-        'techStack': ['React', 'Redux', 'Django', 'MUI', 'SAAS CSS', 'ChartJS', 'Google Maps API', 'Jest', 'BrowserStack'],
+        'techStack': ['React', 'Redux', 'Django', 'MUI', 'SAAS CSS', 'ChartJS', 'Google Maps API', 'Jest', 'BrowserStack', 'Gitlab CI/CD', 'FastAPI', 'Applanga'],
         'summary': 'A web tool designed for riders who want to better understand and improve their experience on the bike.',
-        'challenge': 'Contribute to the ongoing development of an internal business management platform by collaborating with design and management stakeholders to improve usability and extend front-end functionality across existing workflows.',
+        'challenge': 'Contribute to the ongoing development and maintainance of a large scale international consumer IOT platform, collaborating with design and management stakeholders to improve usability and extend front-end functionality and performance.',
         'solution': 'In my role, I contributed to the development and iteration of front-end features based on product priorities and user feedback. This included enhancements to core user tools and calculators, as well as updates to state management and application flows to improve usability and reliability.I was also involved in maintaining and improving CI/CD workflows and front-end testing practices to support consistent releases across browsers and devices. My focus was on delivering incremental improvements within an established product codebase while aligning closely with design and product direction. Work performed as part of my role as an employee. All product IP belongs to the respective company.',
         'desc': ' A web tool designed for riders who want to better understand and improve their experience on the bike.',
-        'image': AXS_Carousel,
-        'images': [AXSDash, AXS_Tire]
+        'image': MountainBike2,
+        'images': [MountainBike]
     },
     {
         'title': 'JB DASH',
