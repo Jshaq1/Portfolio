@@ -1,24 +1,24 @@
-import BUNGLES from '../../Images/courosel-images/BUNGLES.png'
+import BUNGLES from '../../Images/courosel-images/BUNGLES.webp'
 import BUNGLES_HOME from '../../Images/BUNGLES_HOME.png'
 import BUNGLES_CONTACT from '../../Images/BUNGLES_CONTACT.png'
-import HUE from '../../Images/courosel-images/HUE.png'
+import HUE from '../../Images/courosel-images/HUE.webp'
 import HUE_HOME from '../../Images/HUE_HOME.png'
-import JBHIFIDASH from '../../Images/courosel-images/JBHIFI-DASH.png'
-import JBDASH_CALC from '../../Images/JBDASH_CALC.png'
+import JBHIFIDASH from '../../Images/courosel-images/JBHIFI-DASH.webp'
+import JBDASH_CALC from '../../Images/JBDASH_CALC.webp'
 import JBDASH_CHAT from '../../Images/JBDASH_CHAT.png'
-import WORDLE from '../../Images/courosel-images/WORDLE.png'
+import WORDLE from '../../Images/courosel-images/WORDLE.webp'
 import WORDLE_HOME from '../../Images/WORDLE_HOME.png'
-import CURTIN from '../../Images/courosel-images/poster_mockup_MD.png'
-import BleakMock from '../../Images/Gallery-images/BlackMock.png'
-import JonzinMock from '../../Images/Gallery-images/JonzinMock.png'
-import SEACLUDED from '../../Images/Gallery-images/SeacludedMock1.png'
-import SEAMOCK1 from '../../Images/Gallery-images/SeaMock1.png'
-import SEAMOCK2 from '../../Images/Gallery-images/SeaMock.png'
+import CURTIN from '../../Images/courosel-images/poster_mockup_MD.webp'
+import BleakMock from '../../Images/Gallery-images/BlackMock.webp'
+import JonzinMock from '../../Images/Gallery-images/JonzinMock.webp'
+import SEACLUDED from '../../Images/Gallery-images/SeacludedMock1.webp'
+import SEAMOCK1 from '../../Images/Gallery-images/SeaMock1.webp'
+import SEAMOCK2 from '../../Images/Gallery-images/SeaMock.webp'
 import ChurchieLogo from '../../Images/CCS.png'
 import ChurchieLogo2 from '../../Images/Churchie.jpg'
-import ChurchieMock from '../../Images/ChurchieKids.png'
-import MountainBike from '../../Images/courosel-images/MountainBike.jpg'
-import MountainBike2 from '../../Images/courosel-images/MountainBike2.jpg'
+import ChurchieMock from '../../Images/ChurchieKids.webp'
+import MountainBike from '../../Images/courosel-images/MountainBike.webp'
+import MountainBike2 from '../../Images/courosel-images/MountainBike2.webp'
 import DataDashboard from '../../Images/courosel-images/DataDashboard.svg'
 
 const webprojects = [
@@ -114,7 +114,7 @@ const webprojects = [
     },
     {
         'title': 'THE BUNGLES',
-        'link': 'https://www.thebungles.com.au/',
+        'link': null,
         'categories': 'Web Design',
         'techStack': ['Webflow', 'CMS', 'Illustrator'],
         'summary': 'The Bungles are an interactive childrens show created in the mid 90s, bringing iconic Australian wildlife to the big stage.',
