@@ -17,9 +17,6 @@ import SEAMOCK2 from '../../Images/Gallery-images/SeaMock.webp'
 import ChurchieLogo from '../../Images/CCS.png'
 import ChurchieLogo2 from '../../Images/Churchie.jpg'
 import ChurchieMock from '../../Images/ChurchieKids.webp'
-import MountainBike from '../../Images/courosel-images/MountainBike.webp'
-import MountainBike2 from '../../Images/courosel-images/MountainBike2.webp'
-import DataDashboard from '../../Images/courosel-images/DataDashboard.svg'
 
 const webprojects = [
     // {
